@@ -332,7 +332,9 @@ footer {
     }
 
     .artigos {
-        height: 250px;
+/*         height: 250px; */
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     .artigos img {
