@@ -336,7 +336,8 @@ footer {
     }
 
     .artigos img {
-        height: 250px;
+        width: auto;
+        height: 15.5em;
     }
 
     .artigos .texto .artigos-titulo {
@@ -349,7 +350,7 @@ footer {
 
     .artigos .texto .artigos-texto {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         font-size: 14px;
         text-align: start;
     }
@@ -392,7 +393,7 @@ header .menu.ativado {
     position: relative;
     display: grid;
     color: var(--text-color2);
-    margin-top: 14.8%;
+    margin-top: 14.9%;
     z-index: 1;
     padding: 10px ;
     border-radius: 0 0 4px 4px;
