@@ -350,7 +350,7 @@ footer {
 
     .artigos .texto .artigos-texto {
         display: flex;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         font-size: 14px;
         text-align: start;
     }
