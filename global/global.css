@@ -162,7 +162,8 @@ footer .titulo {
     text-align: right;
     font-size: 25px;
     margin-top: 8px;
-    color: #fff;
+    color: var(--text-color2);
+    cursor: pointer;
   }
 
   .menu {
@@ -253,7 +254,7 @@ footer .titulo {
 }
 
 header .menu.ativado {
-  background: rgba(0, 76, 162, 0.8);
+  background: var(--bg-color2);
   position: relative;
   display: grid;
   color: var(--text-color2);
